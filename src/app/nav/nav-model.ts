@@ -1,0 +1,1 @@
+export const navArray: string[] = ["Home", "About", "Skills", "GitHub", "Contact"];

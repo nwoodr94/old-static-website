@@ -1,0 +1,10 @@
+menu {
+    display: inline-block;
+    font-weight: bold;
+    padding: 1rem;
+    transition: opacity 0.8s;
+  }
+  
+.menu:hover {
+    opacity: 0.5;
+  }
