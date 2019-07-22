@@ -1,10 +1,15 @@
-menu {
-    display: inline-block;
+li {
+    display: inline-flex;
+    flex-direction: row;
     font-weight: bold;
     padding: 1rem;
     transition: opacity 0.8s;
   }
   
-.menu:hover {
+li:hover {
     opacity: 0.5;
+  }
+
+  a:visited {
+    color:blue;
   }
