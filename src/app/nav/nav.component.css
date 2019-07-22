@@ -10,6 +10,9 @@ li:hover {
     opacity: 0.5;
   }
 
+  a {
+    color: black;
+  }
   a:visited {
-    color:blue;
+    color:black;
   }
