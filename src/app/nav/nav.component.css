@@ -1,13 +1,13 @@
+ul {
+  padding: 2vh;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
 li {
-    display: inline-flex;
-    flex-direction: row;
-    font-weight: bold;
+    display: inline;
     padding: 1rem;
-    transition: opacity 0.8s;
-  }
-  
-li:hover {
-    opacity: 0.5;
+    color: black;
   }
 
   a {
@@ -15,4 +15,8 @@ li:hover {
   }
   a:visited {
     color:black;
+  }
+  a:hover {
+    color: #69F0AE;
+    text-decoration: none;
   }

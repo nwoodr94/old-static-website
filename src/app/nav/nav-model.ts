@@ -1,1 +1,1 @@
-export const navArray: string[] = ["Home", "About", "Skills", "GitHub", "Contact"];
+export const navArray: string[] = ["Home", "About", "Resume"];

@@ -1,0 +1,37 @@
+.name {
+    padding-top: 1rem;
+    font-size: 2.5rem;
+    font-weight: bold;
+    border-bottom: 1px solid #69F0AE;
+    
+    margin-bottom: 1rem;
+}
+
+
+.body {
+    width: 85%;
+    max-width: 36em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    min-height: 82vh;
+    font-family: 'Roboto', sans-serif;
+  }
+
+
+.head {
+    font-size: 0.7rem;
+}
+
+.title {
+    font-weight: bold;
+    margin: 0;
+}
+
+.small {
+    font-size: 0.7rem;
+}
+
+.text {
+    font-size: 0.8rem;
+}

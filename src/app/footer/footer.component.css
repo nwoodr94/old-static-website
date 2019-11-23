@@ -1,6 +1,10 @@
 .footer {
     text-align: center;
     width: 100%;
+    min-height: 6vh;
+    max-height: 6vh;
+    font-size: 0.7rem;
+    font-family: 'Roboto', sans-serif;
 }
 
 a {
