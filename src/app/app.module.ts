@@ -9,6 +9,7 @@ import { HomeComponent } from './home/home.component';
 import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { ResumeComponent } from './resume/resume.component';
 import { MatButtonModule } from '@angular/material/button';
+import { CleanCodeComponent } from './clean-code/clean-code.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { MatButtonModule } from '@angular/material/button';
     FooterComponent,
     HomeComponent,
     ResumeComponent,
+    CleanCodeComponent,
   ],
   imports: [
     BrowserModule,
