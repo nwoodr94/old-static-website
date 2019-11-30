@@ -6,9 +6,7 @@ import { AboutComponent } from './about/about.component';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
-import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { ResumeComponent } from './resume/resume.component';
-import { MatButtonModule } from '@angular/material/button';
 import { CleanCodeComponent } from './clean-code/clean-code.component';
 
 @NgModule({
@@ -24,8 +22,6 @@ import { CleanCodeComponent } from './clean-code/clean-code.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    MatSlideToggleModule,
-    MatButtonModule,
   ],
   providers: [],
   bootstrap: [AppComponent],
