@@ -1,13 +1,22 @@
+body {
+  background-color: #222;
+  color: white;
+}
+
 .text {
-  padding-top: 1rem;
+  padding-top: 5vh;
   width: 85%;
   max-width: 36em;
   margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  min-height: 85vh;
+  min-height: 90vh;
   font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: white;
 }
   
 .image-container {
@@ -29,4 +38,11 @@ div {
     display: flex;
     flex-direction: column;
     align-items: center;
+  }
+
+
+  @media only screen and (max-width: 750px) {
+    .text {
+      padding-top: 10vh;
+    }
   }
