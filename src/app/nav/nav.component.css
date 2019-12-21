@@ -1,12 +1,12 @@
 .nav {
   padding: 2vh;
+  display: block;
   text-align: left;
   font-family: 'Roboto', sans-serif;
   position: fixed;
 }
 
 li {
-  display: flex;
   padding: 1rem;
   color: white;
   animation: animation 500ms linear both;
@@ -73,13 +73,12 @@ a:hover {
   }
 }
 
-@media only screen and (max-width: 750px) {
+@media only screen and (max-width: 850px) {
   .nav {
     text-align: left;
     font-family: 'Roboto', sans-serif;
     position: absolute;
     font-size: 0.75rem;
-    display: block;
   }
   
   li {
