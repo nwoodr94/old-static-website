@@ -13,11 +13,15 @@ body {
     align-items: center;
     height: 90vh;
     font-family: 'Roboto', sans-serif;
-
   }
 
 .welcome {
   text-align: center;
+}
+
+.text h2 {
+  font-size: 5rem;
+  font-weight: bolder;
 }
 
 @media only screen and (max-width: 750px) {
