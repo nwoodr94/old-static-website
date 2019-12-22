@@ -41,7 +41,7 @@ div {
   }
 
 
-  @media only screen and (max-width: 750px) {
+  @media only screen and (max-width: 875px) {
     .text {
       padding-top: 40vh;
     }
