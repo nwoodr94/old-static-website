@@ -4,6 +4,7 @@
   text-align: left;
   font-family: 'Roboto', sans-serif;
   position: fixed;
+  font-weight: bold;
 }
 
 li {
@@ -22,6 +23,7 @@ a:visited {
 
 a:hover {
   color: whitesmoke;
+  opacity: 80%;
   text-decoration: none;
 }
 
