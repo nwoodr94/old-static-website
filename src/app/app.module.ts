@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { ResumeComponent } from './resume/resume.component';
 import { CleanCodeComponent } from './clean-code/clean-code.component';
+import { ContactComponent } from './contact/contact/contact.component';
 
 @NgModule({
   declarations: [
@@ -18,6 +19,7 @@ import { CleanCodeComponent } from './clean-code/clean-code.component';
     HomeComponent,
     ResumeComponent,
     CleanCodeComponent,
+    ContactComponent
   ],
   imports: [
     BrowserModule,
