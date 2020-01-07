@@ -9,6 +9,8 @@ import { HomeComponent } from './home/home.component';
 import { ResumeComponent } from './resume/resume.component';
 import { CleanCodeComponent } from './clean-code/clean-code.component';
 import { ContactComponent } from './contact/contact/contact.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule, MatFormFieldModule, MatInputModule } from '@angular/material';
 
 @NgModule({
   declarations: [
@@ -24,6 +26,10 @@ import { ContactComponent } from './contact/contact/contact.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
+    MatFormFieldModule,
+    MatInputModule,
+    MatButtonModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent],

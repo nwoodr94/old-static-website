@@ -45,6 +45,9 @@ div {
     align-items: center;
   }
 
+mat-form-field {
+  width: 100%;
+  }
 
   @media only screen and (max-width: 875px) {
     .text {

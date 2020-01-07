@@ -8,9 +8,25 @@
     <section class="text">
         <h2>Contact</h2>
         <br />
-        <p>
-            contact works!
-        </p>
+        <mat-form-field appearance="outline"> 
+            <input matInput #name type="text" placeholder="Name" />
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <input matInput #company type="text" placeholder="Company" />
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <input matInput #email type="email" placeholder="Email Address" required />
+        </mat-form-field>
+
+        <mat-form-field appearance="outline">
+            <textarea matInput #message rows="12" placeholder="Message"></textarea>
+        </mat-form-field>
+        <br>
+        <p *ngIf="!contact.validated" style="color: red;">* Please fill in all fields.</p>
+        <button mat-button
+            (click)="submit(name.value, company.value, email.value, message.value)">Submit</button>
     </section>
 </body>
 

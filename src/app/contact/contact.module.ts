@@ -3,6 +3,8 @@ import { CommonModule } from '@angular/common';
 import { FormsModule } from '@angular/forms';
 import { HttpClientModule } from '@angular/common/http';
 import { ContactComponent } from './contact/contact.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MatButtonModule, MatFormFieldModule, MatInputModule } from '@angular/material';
 
 
 @NgModule({
@@ -10,7 +12,11 @@ import { ContactComponent } from './contact/contact.component';
   imports: [
     CommonModule,
     FormsModule,
-    HttpClientModule
+    MatFormFieldModule,
+    HttpClientModule,
+    MatButtonModule,
+    MatInputModule,
+    BrowserAnimationsModule
   ],
   exports: [
     ContactComponent
