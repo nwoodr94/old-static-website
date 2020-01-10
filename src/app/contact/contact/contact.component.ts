@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Contact } from './contact-model';
+import { ContactService } from '../../contact.service';
 
 @Component({
   selector: 'app-contact',
@@ -8,7 +9,7 @@ import { Contact } from './contact-model';
 })
 export class ContactComponent implements OnInit {
 
-  constructor() { 
+  constructor(private contactService: ContactService) { 
   }
 
   ngOnInit() {
@@ -30,12 +31,16 @@ export class ContactComponent implements OnInit {
       this.contact.company = company;
       this.contact.email = email;
       this.contact.message = message;
-
-
-      console.log(this.contact);
+      
+      this.contactService.post(this.contact).subscribe(
+        (data: Contact) => {
+          console.log(data);
+        },
+        (err: any) => {
+          console.log(err);
+        }
+      )
     }
-
-    
   }
 
 }

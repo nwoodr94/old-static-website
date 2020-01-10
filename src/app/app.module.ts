@@ -11,6 +11,7 @@ import { CleanCodeComponent } from './clean-code/clean-code.component';
 import { ContactComponent } from './contact/contact/contact.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MatButtonModule, MatFormFieldModule, MatInputModule } from '@angular/material';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -30,6 +31,7 @@ import { MatButtonModule, MatFormFieldModule, MatInputModule } from '@angular/ma
     MatInputModule,
     MatButtonModule,
     BrowserAnimationsModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent],
